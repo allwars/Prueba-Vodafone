@@ -1,0 +1,9 @@
+@mixin font($weigth, $lineheight) {
+    font-weight: $weigth;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: $lineheight;
+    letter-spacing: normal;
+    text-align: center;
+    
+}

@@ -1,0 +1,11 @@
+@media screen and (min-width: 1280px) {
+    @import "./../objects/generic_1280.scss";
+  }
+  @media screen and (min-width: 767px) and (max-width: 1279px) {
+    @import "./../objects/generic_768.scss";
+  }
+  
+  @media screen and (max-width: 767px) {
+    @import "./../objects/generic_320.scss";
+  }
+  

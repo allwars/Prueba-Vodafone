@@ -1,0 +1,65 @@
+body {
+  .header {
+    .container {
+      @media (min-width: 576px) {
+        max-width: 630px;
+      }
+      .row {
+        .tittle {
+          &-1 {
+            font-size: 36px;
+          }
+          &-2 {
+            font-size: 26px;
+          }
+        }
+        button {
+          width: 89px;
+          height: 45px;
+        }
+      }
+    }
+  }
+  .breadcrum {
+    display: none;
+  }
+  .content {
+    .tittle {
+      &-1 {
+        font-size: 26px;
+      }
+    }
+
+    .container-slider {
+      margin-right: auto;
+      margin-left: auto;
+
+      .slide {
+        font-family: "VodafoneReg";
+        color: #ffffff;
+      }
+
+      ul.list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 222px;
+        padding: 0 3.2rem;
+
+        li {
+          padding-left: 1.3em;
+          &.tick-mark {
+            display: flex;
+            padding-left: 0;
+            width: 47%;
+          }
+        }
+      }
+
+      .single-item-rtl,
+      .regular2 {
+        display: none !important;
+      }
+    }
+  }
+}

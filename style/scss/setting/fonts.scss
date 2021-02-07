@@ -1,0 +1,22 @@
+.font-default{
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'VodafoneReg';
+    src: url('../../../src/fonts/vodafone/vodafone-regular.eot');
+    src: url('../../../src/fonts/vodafone/vodafone-regular.eot?#iefix')
+        format('embedded-opentype'),
+      url('../../../src/fonts/vodafone/vodafone-regular.woff') format('woff'),
+      url('../../../src/fonts/vodafone/vodafone-regular.ttf') format('truetype');
+  }
+  
+@font-face {
+    font-family: 'VodafoneLt';
+    src: url('../../../src/fonts/vodafone/vodafone-light.eot');
+    src: url('../../../src/fonts/vodafone/vodafone-light.eot?#iefix')
+        format('embedded-opentype'),
+      url('../../../src/fonts/vodafone/vodafone-light.woff') format('woff'),
+      url('../../../src/fonts/vodafone/vodafone-light.ttf') format('truetype');
+  }
+  

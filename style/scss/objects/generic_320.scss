@@ -1,0 +1,49 @@
+body {
+  .header {
+    .container {
+      .row {
+        .tittle {
+          &-1 {
+            font-size: 30px;
+          }
+          &-2 {
+            font-size: 20px;
+          }
+        }
+        button {
+          width: 100%;
+          height: 34px;
+        }
+      }
+    }
+  }
+  .breadcrum {
+    display: none;
+  }
+  .content {
+    .container-slider {
+      padding-right: var(--bs-gutter-x, 0.75rem);
+      padding-left: var(--bs-gutter-x, 0.75rem);
+
+      .tittle {
+        &-1 {
+          font-size: 30px;
+          padding: 0 1.4rem;
+        }
+      }
+
+      ul.list {
+        list-style: none;
+        padding: 0 1.5rem;
+
+        li {
+          padding-left: 1.3em;
+        }
+      }
+      .regular,
+      .regular2 {
+        display: none;
+      }
+    }
+  }
+}
